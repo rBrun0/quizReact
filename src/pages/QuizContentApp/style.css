@@ -1,0 +1,82 @@
+.quizBody{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+.quizBody .appTitle span{
+    color: rgb(240, 90, 90);
+}
+
+.initialize{
+    padding: 10px 40px;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 200px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.initialize:hover{
+    border: 1px solid white;
+    background-color:  rgb(53, 53, 53);
+    color: white;
+}
+
+.quizGameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionsContainer{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 107, 107);
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.questionsContainer h1{
+    text-align: center;
+}
+
+.questionsContainer .questionsBox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+.questionsBox .question{
+    background-color:rgb(53, 53, 53);
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.question:hover{
+    opacity: 0.7;
+}
+
+.finalInformations{
+    margin-top: 30px;
+}
